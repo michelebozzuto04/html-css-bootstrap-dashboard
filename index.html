@@ -46,16 +46,106 @@
     </nav>
 
     <!-- Book Table Section-->
-    <section class="container my-3">
-        <div class="row">
-            <div class="col d-flex justify-content-between">
-                <h2 class="text-secondary-emphasis">Catalogo Libri</h2>
-                <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+    <section class="container">
+        <div class="row my-4">
+            <div class="col-8">
+                <div class="col d-flex justify-content-between my-3">
+                    <h2 class="text-secondary-emphasis">Catalogo Libri</h2>
+                    <button type="button" class="btn btn-primary btn-sm">Aggiungi Libro</button>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col-1">Titolo</th>
+                            <th scope="col">Data prestito</th>
+                            <th scope="col">Stato</th>
+                            <th scope="col">Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I pilastri della terra</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>
+                                <button class="btn btn-outline-dark" type="button">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>I promessi sposi</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Il signore degli anelli</td>
+                            <td>Doe</td>
+                            <td>@social</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Harry Potter e la pietra filosofale</td>
+                            <td>Doe</td>
+                            <td>@social</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Il codice Da Vinci</td>
+                            <td>Doe</td>
+                            <td>@social</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>Shining</td>
+                            <td>Doe</td>
+                            <td>@social</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>La divina commedia</td>
+                            <td>Doe</td>
+                            <td>@social</td>
+                            <td>@mdo</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
 
-        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2>Todo</h2>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
 
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
